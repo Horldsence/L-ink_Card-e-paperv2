@@ -1,0 +1,294 @@
+{
+  "name": "L-ink_Card",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps",
+    "../Drivers"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "::CMSIS",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "Application",
+        "files": [],
+        "folders": [
+          {
+            "name": "MDK-ARM",
+            "files": [
+              {
+                "path": "startup_stm32l051xx.s"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "User",
+            "files": [
+              {
+                "path": "../Drivers/BSP/E-Paper-Display/epd_w21.c"
+              },
+              {
+                "path": "../Drivers/BSP/ST25DV/app_nfc.c"
+              },
+              {
+                "path": "../Src/custom_bus.c"
+              },
+              {
+                "path": "../Src/gpio.c"
+              },
+              {
+                "path": "../Src/main.c"
+              },
+              {
+                "path": "../Src/stm32l0xx_hal_exti.c"
+              },
+              {
+                "path": "../Src/stm32l0xx_hal_msp.c"
+              },
+              {
+                "path": "../Src/stm32l0xx_it.c"
+              },
+              {
+                "path": "../Src/usart.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "Drivers",
+        "files": [],
+        "folders": [
+          {
+            "name": "BSP",
+            "files": [],
+            "folders": [
+              {
+                "name": "Components",
+                "files": [
+                  {
+                    "path": "../Drivers/BSP/Components/ST25DV/st25dv_reg.c"
+                  },
+                  {
+                    "path": "../Drivers/BSP/Components/ST25DV/st25dv.c"
+                  }
+                ],
+                "folders": []
+              },
+              {
+                "name": "NFC04A1",
+                "files": [
+                  {
+                    "path": "../Drivers/BSP/NFC04A1/nfc04a1_nfctag.c"
+                  },
+                  {
+                    "path": "../Drivers/BSP/NFC04A1/nfc04a1.c"
+                  }
+                ],
+                "folders": []
+              }
+            ]
+          },
+          {
+            "name": "CMSIS",
+            "files": [
+              {
+                "path": "../Src/system_stm32l0xx.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "STM32L0xx_HAL_Driver",
+            "files": [
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c"
+              },
+              {
+                "path": "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": "STM32L051C8Tx",
+  "packDir": ".pack/Keil/STM32L0xx_DFP.2.1.0",
+  "miscInfo": {
+    "uid": "1aa717fa9ab31e33bef91e058bededbd"
+  },
+  "targets": {
+    "L-ink_Card": {
+      "excludeList": [
+        "../Drivers/BSP/E-Paper-Display/EPD_1in54_V2_test.c",
+        "../Drivers/BSP/E-Paper-Display/DEV_Config.c",
+        "../Drivers/BSP/E-Paper-Display/EPD_1in54_V2.c",
+        "../Drivers/BSP/E-Paper-Display/font12.c",
+        "../Drivers/BSP/E-Paper-Display/font12CN.c",
+        "../Drivers/BSP/E-Paper-Display/ImageData.c",
+        "<virtual_root>/Drivers"
+      ],
+      "toolchain": "AC6",
+      "compileConfig": {
+        "cpuType": "Cortex-M0+",
+        "floatingPointHardware": "none",
+        "useCustomScatterFile": false,
+        "scatterFilePath": "<YOUR_SCATTER_FILE>.sct",
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x5000"
+              },
+              "isChecked": true,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x08000000",
+                "size": "0x10000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "STLink",
+      "uploadConfig": {
+        "bin": "",
+        "proType": "SWD",
+        "resetMode": "default",
+        "runAfterProgram": true,
+        "speed": 4000,
+        "address": "0x08000000",
+        "elFile": "None",
+        "optionBytes": ".eide/l-ink_card.st.option.bytes.ini",
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "ST",
+            "cpuName": "STM32F103C8"
+          },
+          "proType": 1,
+          "speed": 4000,
+          "otherCmds": ""
+        },
+        "STLink": {
+          "bin": "",
+          "proType": "SWD",
+          "resetMode": "default",
+          "runAfterProgram": true,
+          "speed": 4000,
+          "address": "0x08000000",
+          "elFile": "None",
+          "optionBytes": ".eide/l-ink_card.st.option.bytes.ini",
+          "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "",
+          "interface": "stlink",
+          "baseAddr": "0x08000000"
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../Inc",
+          "../Drivers/STM32L0xx_HAL_Driver/Inc",
+          "../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy",
+          "../Drivers/CMSIS/Device/ST/STM32L0xx/Include",
+          "../Drivers/CMSIS/Include",
+          "../Drivers/BSP/Components/ST25DV",
+          "../Drivers/BSP/NFC04A1",
+          "../Drivers/BSP/Drivers/BSP/NFC04A1",
+          "../Drivers/BSP/E-Paper-Display",
+          "../Drivers/BSP/ST25DV",
+          ".cmsis/include",
+          "RTE/_L-ink_Card",
+          ".eide/deps",
+          "../Drivers/BSP"
+        ],
+        "libList": [
+          "../Drivers/BSP/E-Paper-Display"
+        ],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32F051x8",
+          "STM32L051xx"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
