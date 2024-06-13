@@ -182,7 +182,13 @@
         "../Drivers/BSP/E-Paper-Display/font12.c",
         "../Drivers/BSP/E-Paper-Display/font12CN.c",
         "../Drivers/BSP/E-Paper-Display/ImageData.c",
-        "<virtual_root>/Drivers"
+        "<virtual_root>/Drivers",
+        "../Drivers/BSP/E-Paper-Display/Examples/ImageData.c",
+        "../Drivers/BSP/E-Paper-Display/Examples/ImageData2.c",
+        "../Drivers/BSP/E-Paper-Display/Examples",
+        "../Drivers/BSP/E-Paper-Display/epd_w21.c",
+        "../Drivers/BSP/E-Paper-Display/Fonts",
+        "../Drivers/BSP/E-Paper-Display/GUI"
       ],
       "toolchain": "AC6",
       "compileConfig": {

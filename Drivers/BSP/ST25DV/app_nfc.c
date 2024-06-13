@@ -1,7 +1,8 @@
 #include "main.h"
 #include "app_nfc.h"
 #include "nfc04a1_nfctag.h"
-#include "../E-Paper-Display/epd_w21.h"
+// #include "../E-Paper-Display/epd_w21.h"
+#include "EPD_1in54_V2.h"
 #include <stdio.h>
 
 uint8_t cnt = 0;
@@ -133,7 +134,7 @@ void MX_NFC4_MAILBOX_Process(void)
             {
                 bufferIndex = 0;
 
-                EpdDisFull((unsigned char *) nfcBuffer, 1);
+                EPD_1IN54_V2_Display((unsigned char *) nfcBuffer);
                 HAL_Delay(3000);
             }
 
