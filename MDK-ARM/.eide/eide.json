@@ -276,7 +276,12 @@
           ".cmsis/include",
           "RTE/_L-ink_Card",
           ".eide/deps",
-          "../Drivers/BSP"
+          "../Drivers/BSP",
+          "../Drivers/BSP/E-Paper-Display/Config",
+          "../Drivers/BSP/E-Paper-Display/e-Paper",
+          "../Drivers/BSP/E-Paper-Display/Examples",
+          "../Drivers/BSP/E-Paper-Display/Fonts",
+          "../Drivers/BSP/E-Paper-Display/GUI"
         ],
         "libList": [
           "../Drivers/BSP/E-Paper-Display"

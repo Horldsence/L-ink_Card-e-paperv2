@@ -27,8 +27,9 @@
 /* USER CODE BEGIN Includes */
 #include "stdio.h"
 #include "app_nfc.h"
-#include "epd_w21.h"
-// #include "EPD_1in54_v2.h"
+// #include "epd_w21.h"
+#include "EPD_Test.h"
+#include "EPD_1in54_v2.h"
 // #include "ImageData.h"
 /* USER CODE END Includes */
 
@@ -412,15 +413,17 @@ int main(void)
     MX_USART1_UART_Init();
     /* USER CODE BEGIN 2 */
     MX_NFC_Init();
-    EpdInitFull();
+    // EpdInitFull();
+
     /* USER CODE END 2 */
     // -MARK: 调试附加
     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, GPIO_PIN_RESET);
     HAL_Delay(1000);
-    EpdDisFull((const char *)gImage_1in54, 0);
+    // EpdDisFull((const char *)gImage_1in54, 0);
     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, GPIO_PIN_SET);
     HAL_Delay(1000);
-    EpdDisFull((const char *)gImage_1in54, 1);
+    // EpdDisFull((const char *)gImage_1in54, 1);
+    EPD_test();
     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, GPIO_PIN_RESET);
     HAL_Delay(1000);
     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, GPIO_PIN_SET);

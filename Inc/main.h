@@ -78,6 +78,17 @@ void Error_Handler(void);
 #define INK_RST_GPIO_Port GPIOB
 #define INK_IS_BUSY_Pin GPIO_PIN_8
 #define INK_IS_BUSY_GPIO_Port GPIOA
+// EPD 墨水屏引脚
+#define RST_Pin GPIO_PIN_1
+#define RST_GPIO_Port GPIOA
+#define DC_Pin GPIO_PIN_2
+#define DC_GPIO_Port GPIOA
+#define BUSY_Pin GPIO_PIN_3
+#define BUSY_GPIO_Port GPIOA
+#define SPI_CS_Pin GPIO_PIN_4
+#define SPI_CS_GPIO_Port GPIOA
+#define PWR_Pin GPIO_PIN_6
+#define PWR_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
